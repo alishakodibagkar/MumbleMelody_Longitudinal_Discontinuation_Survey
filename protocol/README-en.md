@@ -15,7 +15,7 @@
 <section>
 <div class="container-fluid">
   <h2>Welcome to the Mumble Melody Longitudinal Study on Stuttering</h2>
-  <p>Thank you for your interest in participating in this study. We are researchers from MIT working to expand research on audio-based approaches that may help increase fluency for adults who stutter.
+  <p>Thank you for participating in this study. We are researchers from MIT working to expand research on audio-based approaches that may help increase fluency for adults who stutter.
   </p>
 </div>
 </section>
