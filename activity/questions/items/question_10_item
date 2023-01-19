@@ -6,7 +6,7 @@
     "description": "Question 10 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Please elaborate on why you feel this way:",
+    "question": "If the app affected your speech, please explain how it did so and why you think this effect is positive/negative/neutral",
     "ui": {
         "inputType": "textarea"
     },

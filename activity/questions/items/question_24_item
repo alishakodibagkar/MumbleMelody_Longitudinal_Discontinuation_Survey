@@ -6,27 +6,43 @@
     "description": "Question 24 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you think this app could be useful for PWS in general?",
+    "question": "Which of these situations do you find that the app could be useful for people who stutter? (check all that apply)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
-        "multipleChoice": false,
+        "maxValue": 6,
+        "multipleChoice": true,
         "choices": [
             {
-                "name": "Yes",
+                "name": "Zoom calls",
                 "value": 0
             },
             {
-                "name": "No",
+                "name": "Conversations while hanging out with friends",
                 "value": 1
             },
             {
-                "name": "Maybe",
+                "name": "At the workplace in person",
                 "value": 2
+            },
+            {
+                "name": "At the workplace virtually",
+                "value": 3
+            },
+            {
+                "name": "At home with family",
+                "value": 4
+            },
+            {
+                "name": "Speaking by yourself for practice",
+                "value": 5
+            },
+            {
+                "name": "Speaking while reading out loud",
+                "value": 6
             }
         ]
     }

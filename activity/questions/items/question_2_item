@@ -3,15 +3,27 @@
     "@type": "reproschema:Field",
     "@id": "question_2_item",
     "prefLabel": "Question 2",
-    "description": "Question 2 - This is a text area item.",
+    "description": "Question 2 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "If it affected your speech, please explain how it did so and why you think this effect is positive/negative/neutral",
+    "question": "Are there aspects to the app that caused you to discontinue the study?",
     "ui": {
-        "inputType": "textarea"
+        "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 0
+            },
+            {
+                "name": "No",
+                "value": 1
+            }
+        ]
     }
 }

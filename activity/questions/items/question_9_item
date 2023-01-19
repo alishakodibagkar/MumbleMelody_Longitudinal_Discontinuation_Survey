@@ -6,7 +6,7 @@
     "description": "Question 9 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "I feel more confident in my speech after using this app for 1 month.",
+    "question": "After using the app over time, I felt like this app affected my way of speaking/my speech:",
     "ui": {
         "inputType": "radio"
     },
@@ -17,23 +17,23 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Strongly Disagree",
+                "name": "Negatively",
                 "value": 0
             },
             {
-                "name": "Disagree",
+                "name": "Positively",
                 "value": 1
             },
             {
-                "name": "Neutral/Unsure",
+                "name": "Neutrally (it did change my speech but not in a way that felt good or bad)",
                 "value": 2
             },
             {
-                "name": "Agree",
+                "name": "It didn’t affect my speech at all",
                 "value": 3
             },
             {
-                "name": "Strongly Agree",
+                "name": "Other",
                 "value": 4
             }
         ]

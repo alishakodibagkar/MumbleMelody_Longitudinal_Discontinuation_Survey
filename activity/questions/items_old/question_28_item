@@ -1,40 +1,32 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_11_item",
-    "prefLabel": "Question 11",
-    "description": "Question 11 - radio item",
+    "@id": "question_28_item",
+    "prefLabel": "Question 28",
+    "description": "Question 28 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "I feel like this app can make a positive impact on my fluency over time.",
+    "question": "Do you think the harmonize mode could be useful for PWS in general?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
+        "maxValue": 2,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Strongly Disagree",
+                "name": "Yes",
                 "value": 0
             },
             {
-                "name": "Disagree",
+                "name": "No",
                 "value": 1
             },
             {
-                "name": "Neutral/Unsure",
+                "name": "Maybe",
                 "value": 2
-            },
-            {
-                "name": "Agree",
-                "value": 3
-            },
-            {
-                "name": "Strongly Agree",
-                "value": 4
             }
         ]
     }

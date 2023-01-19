@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_26_item",
-    "prefLabel": "Question 26",
-    "description": "Question 26 - radio item",
+    "@id": "question_22_item",
+    "prefLabel": "Question 22",
+    "description": "Question 22 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Do you feel that your stutter increased after using the app for a while/as you got used to using the app?",

@@ -6,7 +6,7 @@
     "description": "Question 12 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Please describe any other assistive technology that you have used and explain why this tool is more or less helpful:",
+    "question": "Please elaborate on why you feel this way:",
     "ui": {
         "inputType": "textarea"
     },

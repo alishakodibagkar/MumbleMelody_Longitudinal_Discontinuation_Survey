@@ -3,15 +3,39 @@
     "@type": "reproschema:Field",
     "@id": "question_13_item",
     "prefLabel": "Question 13",
-    "description": "Question 13 - This is a text area item.",
+    "description": "Question 13 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you have any comments on the app’s interface?",
+    "question": "I feel more confident in my speech after using this app:",
     "ui": {
-        "inputType": "textarea"
+        "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Strongly Disagree",
+                "value": 0
+            },
+            {
+                "name": "Disagree",
+                "value": 1
+            },
+            {
+                "name": "Neutral/Unsure",
+                "value": 2
+            },
+            {
+                "name": "Agree",
+                "value": 3
+            },
+            {
+                "name": "Strongly Agree",
+                "value": 4
+            }
+        ]
     }
 }

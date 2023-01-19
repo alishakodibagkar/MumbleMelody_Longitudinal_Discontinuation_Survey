@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_18_item",
-    "prefLabel": "Question 18",
-    "description": "Question 18 - This is a text area item.",
+    "@id": "question_12_item",
+    "prefLabel": "Question 12",
+    "description": "Question 12 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you have any comments on the app’s convenience?",
+    "question": "Please describe any other assistive technology that you have used and explain why this tool is more or less helpful:",
     "ui": {
         "inputType": "textarea"
     },

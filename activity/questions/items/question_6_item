@@ -3,15 +3,27 @@
     "@type": "reproschema:Field",
     "@id": "question_6_item",
     "prefLabel": "Question 6",
-    "description": "Question 6 - This is a text area item.",
+    "description": "Question 6 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Please elaborate on why you feel this way:",
+    "question": "Are there any potential changes to the study that would cause you to not discontinue the study?",
     "ui": {
-        "inputType": "textarea"
+        "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 0
+            },
+            {
+                "name": "No",
+                "value": 1
+            }
+        ]
     }
 }

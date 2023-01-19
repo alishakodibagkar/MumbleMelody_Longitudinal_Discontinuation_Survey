@@ -6,7 +6,7 @@
     "description": "Question 17 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you have any comments on the app’s influence on your interactions with others?",
+    "question": "Do you have any comments on the app’s interface?",
     "ui": {
         "inputType": "textarea"
     },
