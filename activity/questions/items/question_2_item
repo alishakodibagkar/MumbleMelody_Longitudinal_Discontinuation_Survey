@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_2_item",
+    "prefLabel": "Question 2",
+    "description": "Question 2 - This is a text area item.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "If it affected your speech, please explain how it did so and why you think this effect is positive/negative/neutral",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

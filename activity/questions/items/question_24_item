@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_24_item",
+    "prefLabel": "Question 24",
+    "description": "Question 24 - radio item",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you think this app could be useful for PWS in general?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 0
+            },
+            {
+                "name": "No",
+                "value": 1
+            },
+            {
+                "name": "Maybe",
+                "value": 2
+            }
+        ]
+    }
+}
